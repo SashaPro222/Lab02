@@ -112,3 +112,18 @@
 // Console.WriteLine("Введите ваше имя");
 // string name = Console.ReadLine();
 // Console.WriteLine($"{name2} {name[0]}.");
+
+// Console.Write("Введите целое число: ");
+// var intInput = Console.ReadLine();
+// bool intOk = int.TryParse(intInput, out int intResult);
+// Console.WriteLine($"Удалось преобразовать: {intOk}, значение: {intResult}");
+
+// Console.Write("Введите дробное число: ");
+// var doubleInput = Console.ReadLine();
+// bool doubleOk = double.TryParse(doubleInput, out double doubleResult);
+// Console.WriteLine($"Удалось преобразовать: {doubleOk}, значение: {doubleResult}");
+
+// Console.Write("Введите дату (дд.мм.гггг): ");
+// var dateInput = Console.ReadLine();
+// bool dateOk = DateTime.TryParse(dateInput, out DateTime dateResult);
+// Console.WriteLine($"Удалось преобразовать: {dateOk}, значение: {dateResult}");
