@@ -106,3 +106,9 @@
 // double mass = Console.ReadLine();
 // double bmi = mass / (height * height);
 // Console.WriteLine($"ИМТ: {bmi:F2}");
+
+// Console.WriteLine("Введите вашу фамилию");
+// string name2 = Console.ReadLine();
+// Console.WriteLine("Введите ваше имя");
+// string name = Console.ReadLine();
+// Console.WriteLine($"{name2} {name[0]}.");
